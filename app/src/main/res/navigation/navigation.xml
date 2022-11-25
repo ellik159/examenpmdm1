@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.pedidos.inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_framento_resumen"
+            app:destination="@id/framento_resumen" />
+    </fragment>
+    <fragment
+        android:id="@+id/framento_resumen"
+        android:name="com.example.pedidos.framento_resumen"
+        android:label="framento_resumen"
+        tools:layout="@layout/fragment_framento_resumen">
+        <argument
+            android:name="item"
+            app:argType="com.example.pedidos.models.Pedido" />
+    </fragment>
+</navigation>

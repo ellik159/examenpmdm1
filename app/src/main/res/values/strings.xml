@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pedidos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introduce_tu_correo">Introduce tu correo</string>
+    <string name="numero_de_cafes">Numero de cafes</string>
+    <string name="tipo_de_servicio">Tipo de Servicio</string>
+    <string name="comsumo_en_barra">Comsumo en barra </string>
+    <string name="para_llevar">Para llevar (+ 0.10$)</string>
+    <string name="consumo_en_terraza">Consumo en terraza (+ 0.50$)</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="con_helado_0_25">Con helado? (+ 0.25$)</string>
+    <string name="direccion_de_email">Direccion de email</string>
+    <string name="numero_de_cafes_resument">Numero de cafes</string>
+    <string name="consumo_en_terraza_resumen">Consumo en terraza</string>
+    <string name="con_helado_resument">Con helado</string>
+    <string name="coste_total">Coste total</string>
+    <string name="confirmar">confirmar</string>
+    <string name="asunto">Pedido</string>
+</resources>
